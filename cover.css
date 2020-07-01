@@ -1,0 +1,50 @@
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .0);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .0);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.btn-group, .btn-group-vertical {
+    margin-top: -20px;
+    position: absolute;
+    display: -ms-inline-flexbox;
+    display: block;
+    /* vertical-align: bottom; */
+    margin-left: 150px;
+  }
+
+#photos {
+    /*Prevent vertical gaps */
+   line-height: 0px;
+   
+   -webkit-column-count: 1;
+   -webkit-column-gap:   7px;
+   -moz-column-count:    1;
+   -moz-column-gap:      7px;
+   column-count:         3;
+   column-gap:           18px;
+}
+
+#photos img {
+   /*Just in case there are inline attributes */
+  width: 100%;
+  height: relative;
+}
+
+
+.ImageResult {
+    padding-bottom: 18px;
+}

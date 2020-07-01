@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Image Gallery</title>
+    <script src="https://kit.fontawesome.com/26c38fb166.js" crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="app.css" />
+<link href="cover.css" rel="stylesheet">
+
+</head>
+
+<body class="text-center">
+
+    <div class=" container-fluid">
+    <header class="container-fluid">
+    <div class="inner text-center" >
+        <h1 class="text-center" style="padding-top: 25px">Image Gallery</h1>
+
+    </div>
+    </header>
+        
+
+            <form>
+                <!-- <label for="searchTerm">Image Search</label> -->
+
+                <input class="searchBox" type="text" id="searchTerm" name="searchTerm" placeholder=" enter keyword.."> 
+
+                <span style="padding-right: 10px"></span>
+                        
+            
+            <!-- <button type="submit">Search</button> -->
+            <button type="submit" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+            Submit
+            </button>
+            <span style="padding-right: 10px"></span>
+
+            
+            </form>
+            <div class="btn-group" >
+                <label class="btn btn-secondary" onclick="Grid();"><i class="fas fa-th-large fa-2x"></i>
+                </label>    
+                <label class="btn btn-secondary" onclick="List();"> <i class="fas fa-bars fa-2x"></i>
+                </label>
+            </div>
+
+            <div>
+
+                <section class="images" id="photos" style="padding-top: 20px">
+                </section> 
+            </div>        
+    
+    <script type="text/javascript" src="app.js"></script>
+
+    </body>
+</html>

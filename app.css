@@ -1,0 +1,93 @@
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  width: 80%;
+  max-width: 1600px;
+  margin: 4em auto 0 auto;
+}
+
+
+
+h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+
+
+/* Buttons */
+.button,
+button,
+input[type="submit"]{
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  text-transform: uppercase;
+  height: 38px;
+  padding: 0 30px;
+
+}
+
+.btn-primary {
+    color: #24151e;
+    padding: 0px 24px;
+    background-color: #fff;
+    border-color: #33C3F0; 
+  }
+
+/*search bar*/
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 1px solid #33C3F0; 
+
+
+
+}
+
+input#searchTerm.searchBox {
+  width: 500px;
+  max-width: 60%;
+  box-sizing: border-box;
+}
+
+
+
+
+/*form*/
+form {
+    padding-bottom: 1em;
+}
+
+
+
+/*link*/
+.view_link {
+    right: 1em;
+    bottom:1em;
+   
+}
+.ImageResult a {
+    position: relative ;
+    color: #fff;
+    text-decoration: all;
+    font-weight: 50;
+    font-size: smaller
+    text-shadow: 0px 0px 5px black;
+}
