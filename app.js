@@ -67,7 +67,15 @@ let myElement = document.querySelector("#photos")
 
 function List(){
   myElement.style.webkitColumnCount="1";
+
+if (window.matchMedia("(max-width: 480px)").matches) {
+  /* The viewport is less than, or equal to, 700 pixels wide */
+  myElement.style.width="80%";
+} else {
   myElement.style.width="40%";
+  /* The viewport is greater than 700 pixels wide */
+}
+
   imageSection.style.display="inline-block";
 }
 
